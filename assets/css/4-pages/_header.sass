@@ -9,7 +9,7 @@ header
         margin: 10px 0 0 30px
 
         path
-            fill: rgba(0,0,0,0.4)
+            fill: white
 
     nav
         float: right
@@ -20,10 +20,7 @@ header
             margin-left: 20px
             
             color: white
-            font:
-                size: 14px
-                weight: 700
-            text-transform: uppercase
+            @extend %small-bold
             
             &:hover
                 color: rgba(200,200,200,1)
@@ -47,9 +44,7 @@ header
 
     .kicker
         text-align: center
-        font:
-            weight: 700
-        text-transform: uppercase
+        @extend %small-bold
         letter-spacing: 0.05em
         color: white
         line-height: 1

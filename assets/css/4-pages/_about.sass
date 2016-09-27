@@ -1,0 +1,57 @@
+h3
+    @extends %small-bold
+    color: $accent-color
+    text-align: center
+    padding: 100px 0 30px
+
+.face-lockup
+    max-width: 780px
+    +display(flex)
+    margin: 0 auto
+    +align-items(center)
+    +justify-content(space-around)
+
+    .face-img
+        +size(200px)
+        background: url(/assets/img/picture.jpg)
+        background-size: cover
+        border-radius: 50%
+        order: 3
+
+    [class^="icon-"]
+        +size(100px)
+
+        path
+            fill: $accent-color
+
+        &.icon-internet
+            order: 1
+        &.icon-list
+            order: 2
+        &.icon-lock
+            order: 4
+        &.icon-television
+            order: 5
+
+@media screen and (max-width: 650px)
+    .face-lockup
+        display: block
+        text-align: center
+        
+        div
+            display: inline-block
+
+        .face-img
+            display: block
+            background-position: center center
+            background-repeat: no-repeat
+            width: auto
+            margin-botton: 30px
+
+    .blurb
+        max-width: 620px
+        padding: 0 15px
+        margin: 50px auto
+        text-align: 24px
+        
+        

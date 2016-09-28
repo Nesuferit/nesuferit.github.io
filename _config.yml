@@ -10,6 +10,17 @@ title: Sandro Aguilar
 email: sandro.aguilar.p@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Software developer
+
+# Change the site default image and content here!
+logo: logo.svg
+bg-img: background.jpg
+
+avatar: picture.jpg
+blurb: <p>I'm a <strong>software and web developer</strong> that enjoys coding all day, thinking and searching solutions to resolve problems. 
+            I love challenges because that makes me learn a lot of new things</p>
+        <p>I have 5 years of experience working with all kind of teams, they helped me to improve my skills and grow up as a human been </p>
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: nesuaguilar

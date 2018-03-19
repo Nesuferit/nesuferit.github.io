@@ -16,9 +16,9 @@ logo: logo.svg
 bg-img: background.jpg
 
 avatar: picture.jpg
-blurb: <p>I'm a <strong>software and web developer</strong> that enjoys coding all day, thinking and searching solutions to resolve problems. 
+blurb: <p>I'm a <strong>software and web developer</strong> that enjoys coding all day, thinking and searching solutions to solve problems. 
             I love challenges because that makes me learn a lot of new things</p>
-        <p>I have 5 years of experience working with all kind of teams, they helped me to improve my skills and grow up as a human been </p>
+        <p>I have 6 years of experience working with all kind of teams, they helped me to improve my skills and grow up as a human been </p>
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
